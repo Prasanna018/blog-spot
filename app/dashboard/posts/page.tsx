@@ -9,7 +9,7 @@ const Posts = async () => {
             createdAt: "desc"
         }
     })
-    console.log(posts)
+
     return (
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
             {

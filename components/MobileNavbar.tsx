@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Button } from './ui/button'
 import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton } from '@clerk/nextjs'
-import { ContactIcon, LayoutDashboard, Menu, X, Home, BookText, Mail, Newspaper } from 'lucide-react'
+import { LayoutDashboard, Menu, X, Home, BookText, Mail, Newspaper } from 'lucide-react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 

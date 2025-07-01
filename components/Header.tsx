@@ -16,7 +16,7 @@ const Header = async () => {
         console.log('user already in db')
 
         if (!isUser) {
-            const newUser = await prisma.user.create({
+            await prisma.user.create({
                 data: {
                     clerkId: user.id,
                     name: user.fullName || "",
